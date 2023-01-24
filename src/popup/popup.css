@@ -1,0 +1,13 @@
+@import "bulma/css/bulma.css";
+
+#root {
+  height: 500px;
+  width: 800px;
+}
+
+.linkedin-fav-extension {
+  margin-top: 12px;
+}
+.linkedin-fav-extension table {
+  width: 100%;
+}
