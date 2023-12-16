@@ -31,7 +31,9 @@ chrome.storage.local.get(["linkedInProfileFav"]).then((response) => {
       .getElementById("linkedin-fav-extension")
       .classList.add("is-active");
   };
-  document.querySelector(".pv-text-details__left-panel")?.appendChild(button);
+  document
+    .querySelector(".wrksnmhvklIDWaLBcdIePlLksyeass")
+    ?.appendChild(button);
 });
 
 render(<Content></Content>, document.getElementById("root-link"));

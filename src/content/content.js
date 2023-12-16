@@ -114,7 +114,7 @@ function Modal() {
         ".pv-top-card-profile-picture__container img"
       );
       const title = document.querySelector(
-        ".pv-text-details__left-panel .text-body-medium"
+        ".wrksnmhvklIDWaLBcdIePlLksyeass .text-body-medium"
       )?.textContent;
 
       chrome.storage.local.get(["linkedInProfileFav"]).then((response) => {
@@ -132,7 +132,7 @@ function Modal() {
               .classList.add("is-active");
           };
           document
-            .querySelector(".pv-text-details__left-panel")
+            .querySelector(".wrksnmhvklIDWaLBcdIePlLksyeass")
             .appendChild(button);
         }
         const item = list[result[4]] || {};
